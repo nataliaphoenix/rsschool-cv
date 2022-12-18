@@ -4,9 +4,136 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
 </head>
 <body>
-  
+  <div class="body_wrapper">
+    <header class="header">
+      <div class="header-block">
+        <div class="cv-nav_burger" title="menu">
+          <span></span>
+        </div>
+        <nav class="cv-nav">
+          <ul class="cv-nav_list">
+            <li class="cv-nav_item">
+              <a class="cv-nav_link" href="#skills">Skills</a>
+            </li>
+            <li class="cv-nav_item">
+              <a class="cv-nav_link" href="#experience">Experience</a>
+            </li>
+            <li class="cv-nav_item">
+              <a class="cv-nav_link" href="#edu">Education</a>
+            </li>
+            <li class="cv-nav_item">
+              <a class="cv-nav_link" href="#lang">Languages</a>
+            </li>
+            <li class="cv-nav_item">
+              <a class="cv-nav_link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section_about">
+        <img class="cv-photo" alt="cv-photo" src="./nataliaphoenix.png">
+        <h2 class="cv-name">
+          Natalia Phoenix
+        </h2>
+        <h1 class="cv-title">
+          Frontend Developer 
+        </h1>
+        <p class="cv-info">
+          I'm a beginner frontend developer and ux/ui designer.
+          I like to learn new things and challenges.
+          Before getting interested in programming I've tried many things, after dropping out out of law school
+          I've worked in sales and learned languages and programming in my free time.
+        </p>
+      </section>
+      <section class="section_skills" id="skills">
+        <h2>Hard Skills</h2>
+        <ul class="skills_list">
+          <li class="skills_list-item">GIT and GitHub</li>
+          <li class="skills_list-item">HTML</li>
+          <li class="skills_list-item">CSS</li>
+          <li class="skills_list-item">Bootstrap</li>
+          <li class="skills_list-item">JavaScript</li>
+          <li class="skills_list-item">Figma</li>
+          <li class="skills_list-item">Web Design</li>
+        </ul>
+      </section>
+      <section class="section_experience" id="experience">
+        <h2>Experience</h2>
+        <ul class="experience_list">
+          <li>
+            <a href="https://github.com/WebHeroSchool/final_whs_np">
+              Landing Page with adaptive design
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/WebHeroSchool/second_final_np">
+              Landing Page
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/nataliaphoenix/tindog_petproject">
+              Landing Page using Bootstrap
+            </a>
+          </li>
+          <li>
+            <pre>
+              <code class="javascript">
+                function multiply(a, b){
+                  return a * b
+                }
+                ;
+              </code>
+            </pre>
+          </li>
+        </ul>
+      </section>
+      <section class="section_education" id="edu">
+        <h2>Education</h2>
+        <ul class="education_list">
+          <li>GIT Certificate WebHeroSchool</li>
+          <li>HTML&CSS Ce WebHeroSchool</li>
+          <li>freeCodeCamp</li>
+        </ul>
+      </section>
+      <section class="section_languages" id="lang">
+        <h2>Languages</h2>
+        <div class="languages-block">
+          <div>
+            <h3>English</h3>
+            <p>Fluent</p>
+          </div>
+          <div>
+            <h3>German</h3>
+            <p>Fluent</p>
+            <p>Goethe Zertifikat C1</p>
+          </div>
+          <div>
+            <h3>Russian</h3>
+            <p>Native</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <p class="footer-info">©2022 by Natalia Prisakar</p>
+      <ul class="footer-links">
+        <li>TG: @nataliaphoenix</li>
+        <li>LinkedIn</li>
+        <li>GitHub</li>
+        <li>
+          <a class="course-logo" href="https://rs.school/js/">
+            <img src="./rs_school_js.svg" alt="rsschool logo" width="80">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 </body>
 </html>

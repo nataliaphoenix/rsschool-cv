@@ -1,3 +1,109 @@
 h1 {
-  color: purple;
+  font: 800 50px/55px 'Gilroy', sans-serif;
+  padding-left: 25px;
+}
+
+h2 {
+  color: #4741a6;
+  font: 800 45px/55px 'Gilroy', sans-serif;
+  padding: 0 25px;
+}
+
+body {
+  background-color: #d9eff7;
+  font: 300 20px/23px 'Gilroy', sans-serif;
+}
+
+.body_wrapper {
+  margin: 0 auto;
+}
+
+.cv-nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.body_wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.skills_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-weight: 800;
+  background-color: #9bbbfc;
+  border-radius: 25px 0;
+}
+
+.cv-photo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+.cv-name {
+  text-align: center;
+  margin-top: 0;
+}
+
+.cv-info {
+  padding: 25px;
+  background-color: #f9ce69;
+  border-radius: 25px 0;
+}
+
+.experience_list {
+  background-color: #f9ce69;
+  border-radius: 25px 0;
+  padding: 25px;
+}
+
+.education_list {
+  background-color: #9bbbfc;
+  border-radius: 25px 0;
+  padding: 25px;
+  font-weight: 800;
+}
+
+.languages-block {
+  background-color: #f9ce69;
+  border-radius: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.footer {
+  background-color: #9bbbfc;
+  border-radius: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.footer-info {
+  width: 100%;
+  margin-left: 25px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: 800;
+  padding: 0 25px;
 }

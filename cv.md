@@ -9,8 +9,9 @@ I worked in sales and learned languages and programming in my free time.
 * GIT 
 * HTML
 * CSS
+* JavaScript
 * Figma
-* Basic web design
+* Web Design
 
 ### Code exemple
 
@@ -32,7 +33,7 @@ function multiply(a, b){
 2. Web Developer course on udemy by Dr. Angela Yu
 3. Course by ITLandEducation: 4 professions
 
-### Langueages
+### Languages
 * Russian (native)
 * English (fluent)
 * German (fluent)
